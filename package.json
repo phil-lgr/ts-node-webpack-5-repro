@@ -1,0 +1,17 @@
+{
+  "name": "ts-node-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "ts-node node_modules/webpack/bin/webpack --config webpack.config.cts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^16",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
